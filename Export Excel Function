@@ -1,0 +1,7 @@
+private void static createDataTable()
+{
+		DataTable ExcelFile = new DataTable();
+		ExcelFile.Columns.Add("Customer Name",TypeOf(String));
+		ExcelFile.Columns.Add("City",TypeOf(String));
+		return ExcelFile;
+}
